@@ -12,9 +12,20 @@
         
         <form>
             <label for="dogs">Dogs</label>
-            <input type="radio" id="dogs">
+            <input name="petChoice" type="radio" id="dogs" value="dog">
             <label for="cats">Cats</label>
-            <input type="checkbox" id="cats">
+            <input name="petChoice" type="radio" id="cats" value="cat">
+            
+            
+            <p>What's your favorite color?</p>
+            <select name="color">
+                <option value="happy">Red</option>
+                <option value="neutral">Orange</option>
+                <option value="sad">Yellow</option>
+            </select>
+            <button>Go!</button>
+            
+            <textarea name="paragraph" row="10" cols="10"></textarea>
         </form>
     </body>
 </html>

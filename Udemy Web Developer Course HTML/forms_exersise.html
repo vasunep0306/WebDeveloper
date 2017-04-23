@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+    </head>
+    
+    <body>
+       
+        <h1>Register</h1>
+        <form>
+            <label for="first_name">First Name: </label>
+            <input type="text" id="first_name" name="firstName" placeholder="John">
+            <label for="last_name">Last Name: </label>
+            <input type="text" id="last_name" name="lastName" placeholder="Smith">
+            <br>
+            <label for="maleGender">Male</label>
+            <input type="radio" id="maleGender" name="gender">
+            <label for="femaleGender">Female</label>
+            <input type="radio" id="femaleGender" name="gender">
+            <label for="otherGender">Other</label>
+            <input type="radio" id="otherGender" name="gender">
+            <br>
+            <label for="emailTxt">Email: </label>
+            <input type="email" id="emailTxt" required placeholder="your email" maxlength="10">
+            <label for="passwordTxt" maxlength="10">Password: </label>
+            <input type="password" id="passwordTxt" required>
+            <br>
+            <label for="birthdayFields">Birthday: </label> 
+            <select name="month">
+                <option selected>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>March</option>
+            </select>
+            <select name="day">
+                <option selected>Day</option>
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+                <option>Saturday</option>
+                <option>Sunday</option>
+            </select>
+            <select name="year">
+                <option selected>Year</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+            </select>
+            <br>
+            <label for="agreement">I agree to the terms and conditions</label>
+            <input type="checkbox" id="agreement"> 
+            <br>
+            <input type="submit">
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,15 @@
+The user went to a website
+The user is asking for a website(http request)
+Sends the packet across the atlantic across to the US.
+
+
+At this point, everything is on the return journey.
+How the packets get to England doesnt matter. But how long it gets there matters.
+
+
+Finding the Right Address
+www.udemy.com -> 23.235.47.175
+
+Your query is submitted to your ISP
+Within your ISP, the DNS takes the Domain name and turns it into an isp
+A request is sent to the desired website.

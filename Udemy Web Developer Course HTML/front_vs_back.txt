@@ -1,0 +1,12 @@
+Front end is the stuff that you see and interact with: Html css and Javascript
+the backend is everything else: so many choices
+Restraunt analogy: the backend is everything that happens in the kitchen; the front end is what is plated and sent to your table.
+
+HTML: HyperText Markup Language: Defines the Structure of a webpage  "put an image here" "put a form here"
+The nouns of a webpage
+
+CSS:  Cascading Style Sheets: Defines the style of HTML: make all text purple: give the first image a yellow border
+
+JavaScript: adds logic and interactivity to a page: "Do some math" "change color" "load new data"
+
+The actions or "verbs" of a web page

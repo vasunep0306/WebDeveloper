@@ -1,13 +1,13 @@
 /*font-family*/
 
 p {
-    font-family: Arial;
+    font-family: 'Ranga', cursive;
 }
 
 
 
 h1 {
-    font-family: georgia;
+    font-family: 'Eagle Lake', cursive;
 }
 
 /*font-size*/
@@ -29,11 +29,35 @@ p {
 }
 /*font-weight*/
 
+p {
+    
+    font-weight: bold;
+}
 
 /*line-height*/
 
+p {
+    line-height: 1.5;
+}
 
 /*text-align*/
 
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
 
 /*text-decoration*/
+
+p {
+    text-decoration: underline;
+}
+
+/*
+h1 {
+    text-decoration: line-through;
+}
+*/

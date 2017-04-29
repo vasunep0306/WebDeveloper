@@ -26,3 +26,11 @@ h2 {
     color: 2c3e50;
     font-size: 2.0rem;
 }
+
+/* Found this on css-tricks.com */
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
